@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--
+THis webpage is made by 
+Dylan Scott Mudersbach
+17 May 2023
+Dylan.mudersbach@gmail.com
+
+
+-->
+<!--This is the start of the html stuff and things-->
+<html>
+<!-- this is the header! Things not on the main page body go here. 
+    Body is for main body stuff-->
+
+<head>
+    <!--We need a style sheet to define the styles for our page-->
+    <link href="Style.css" rel="stylesheet" type="text/css">
+
+    <!-- we need to link the js file with the html, so we can use the js resources-->
+
+    <script src="code.js"></Script>
+
+    <TItle>
+        Dylan's HTML Page!
+    </TItle>
+    <!--the title at the top of the window bar-->
+
+</head>
+
+<body>
+    <!--this is how you write a comment! The line above is the header and shows how to color a page.-->
+    <header style="text-align: center;">
+        <h1> WELCOME TO DYLAN'S PAGE!</h1>
+        <!--h1 is big and bold, h2 is smaller-->
+        <h2> I am your host, Dylan himself</h2>
+        <br>
+    </header>
+    <!--this is for navigation-->
+    <nav>
+        <h2>
+            Navigation
+        </h2>
+        <a href="./index.html">home</a> <br>
+        <a href="./boards.html">boards</a><br>
+    </nav>
+<!--marquee causes the meme image to scroll
+-->
+<marquee id="mymarquee">
+    <img id="memePic"  src="Korok.png">
+</marquee>
+    <br>
+
+    <div id="bodyText">
+        
+        <br>
+        <button id="startButton" onclick="startFun();"> Start</button>
+        <button id="stopButton" onclick="stopFun();"> Stop</button>
+        <br>
+        <p style="text-align: center;">
+            This is a paragraph about me. I am a student of Game Art and Animation,
+            <br>
+            and I love to make games in my spare time.
+        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div style="margin-top: 200;"></div>
+        <h2>Welcome to my Craps Game</h2>
+        Die 1 result: <div id="die1Res">Press "play Craps" to start game</div><br>
+        Die 2 result: <div id="die2Res">Press "play Craps" to start game</div><br>
+        Sum of the Dice: <div id="diceSum">Press "play Craps" to start game</div><br>
+        Game Result: <div id="gameRes">Press "play Craps" to start game</div><br>
+        <br>
+        <button onclick="playCraps();">Play Craps!</button><br>
+        <br>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <footer style="text-align: center;">
+        <h2>Dylan Scott Mudersbach</h2>
+        UNIVERSITY OF ADVANCING TECHNOLOGY<br>
+        2625 W. Baseline Road<br>
+        Tempe, AZ 85283-1056<br>
+        602-383-8222<br>
+    </footer>
+</body>
+
+</html>

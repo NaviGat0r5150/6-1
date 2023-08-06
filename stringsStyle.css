@@ -1,0 +1,20 @@
+/*These are the body style elements*/
+body{
+    background-color: aliceblue;
+}
+/*To modify the picture, may not work*/
+#pic{
+    text-align: center;
+}
+/*to modify header text style*/
+h1{
+    text-align: center;
+}
+/*to modify the button*/
+.button{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: red;
+}
